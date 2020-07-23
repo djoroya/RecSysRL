@@ -1,0 +1,60 @@
+
+% 
+Un sistema de recomendación es un sistema de filtrado, capaz de predecir puntación que este da a un conjunto de elementos. El objetivo de estos sistemas es el proporcionar elementos con la mayor relevancia. 
+
+En este capítulo introduciremos algunos sistemas de recomendación mencionando sus ventajas y desventajas, además de motivar el uso de la modelización de un sistema de recomendación como un proceso oculto de Markov. Luego formulalemos matemáticamente el sistema de recomendación, para además de resolverlo y realizar pruebas experimentales.
+
+
+Existen varios tipos de sistemas de recomendación, a continuación mencionamos un clasificación representativo de estos.
+
+\section{Filtrado colaborativo} 
+
+En los sistemas de filtrado colaborativo \cite{schafer2007collaborative}, las puntaciones predichas de los elementos se calculan mediante la valoración de otros usuarios.  Suponiendo que tenemos una base de datos de $n$ usuarios y $m$ elementos a recomendar, los sistemas de recomendación colaborativo almacenan las puntaciones en una matriz $P \in \mathcal{M}_{n\times m}$. De esta forma, un elemento de la matriz $P{ij}$, corresponde a la puntación que el usuario $i$ da al elemento $j$. Deberemos notar que esta matrix $P$ no es completamente conocida sino que tiene muchos elementos desconocidos.  De esta manera, el problema de recomendación se traduce a descubrir la totalidad esta matriz $P$.
+ 
+    \begin{itemize}
+        \item \textbf{Ventajas}
+        \begin{itemize}
+            \item Interpretación de los resultados.
+            \item Fácil implementación.
+        \end{itemize} 
+
+         \item \textbf{Desventajas} 
+         \begin{itemize}
+             \item Depende de las puntuaciones subjetiva de las personas.
+             \item Su rendimiento disminuye cuando los datos son dispersos.
+         \end{itemize}
+    \end{itemize}
+
+\section{Filtrado basado en contenido} 
+    
+    Los sistemas de recomendación basado en contenido \cite{lops2011content} se utilizan el historial del usuario como base del proceso. Los elementos del conjunto de recomendación tienen asociado un vector de carácteristicas. Por ejemplo, en el contexto de un sistema de recomendación de películas, un elemento puede ser de distinto género o duración, estas características son codificadas en un vector de $\mathbb{R}^d$, donde $d$ es el número de características consideradas. El usuario en estos sistemas elige las peĺiculas según sus gustos por lo que va escogiendo un conjunto de vectores que definen un subespacio vectorial. Entonces se considera una buena recomendación al elemento que más cerca este en el subespacio definido por el historial del usuario. 
+
+    \begin{itemize}
+        \item \textbf{Ventajas} 
+        \begin{itemize}
+            \item Independencia de Usuarios. Las recomendaciones solo dependen del perfil de usuario, por lo que se considera un solución personalizada.
+            \item No es necesario que ningún usuario haya evaluado un elemento nuevo.
+        \end{itemize}
+        \item \textbf{Desventajas}
+        \begin{itemize}
+            \item Sobreespecialización. Cuando el historial del usuario es muy grande la solución de este sistema puede llegar a una configuración estacionaria, por lo que podemos llegar a recomendaciones siempre iguales
+            \item Nuevo usuario. Es necesario que el historial del usuario sea suficientemente representativo para poder realizar recomendaciones fiables.
+        \end{itemize}
+    \end{itemize}
+
+\section{Sistema de basado en un proceso de decición de Markov}
+    En \cite{shani2005mdp} se describe el procesos de recomendación como un proceso de descisión de Markov. El usuario se considera un sistema dinámico, en donde el estado viene representado por una secuencia de elementos que ha seleccionado. Además las acciones a tomar viene represetnado por la siguiente recomendación. Es decir, se considera que la siguiente recomendación depende de el historial reciente del usuario. 
+    
+\begin{itemize}
+    \item \textbf{Ventajas} 
+    \begin{itemize}
+        \item Solución dinámica. Un sistema de decomendación basado en un proceso de Markov puede a una solución que depende del estado actual del usuario, dado que este \emph{estado} puede variar en el tiempo la recomendación es dinámico.
+    \end{itemize}
+    \item \textbf{Desventajas}
+    \begin{itemize}
+        \item Gran necesidad de datos. Dado que la estimación se realiza mediante la máxima verosimilitud, esta necesita una gran cantidad de datos-
+    \end{itemize}
+\end{itemize}
+
+
+En \cite{shani2005mdp} su validación se realiza a tiempo real mediante la interacción con usuarios reales por lo que no es necesario la simulación del usuario. En este trabajo proponemos una manera de utilizar el historial del usuario para la simulaciíon y además para dar una mejor inicialización al algoritmo de \emph{Q-learning}.

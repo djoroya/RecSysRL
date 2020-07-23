@@ -1,0 +1,38 @@
+\contentsline {defi}{{Definición}{1.1.{1}}{Proceso de decisión de Markov}}{9}{defi.1.1.1}
+\contentsline {obs}{{Observación}{1.1.{1}}{}}{9}{obs.1.1.1}
+\contentsline {obs}{{Observación}{1.1.{2}}{}}{10}{obs.1.1.2}
+\contentsline {obs}{{Observación}{1.1.{3}}{}}{10}{obs.1.1.3}
+\contentsline {defi}{{Definición}{1.1.{2}}{Regla de decisión}}{10}{defi.1.1.2}
+\contentsline {defi}{{Definición}{1.1.{3}}{Política}}{10}{defi.1.1.3}
+\contentsline {example}{{Ejemplo}{1.1.{1}}{Control de una partícula}}{10}{example.1.1.1}
+\contentsline {defi}{{Definición}{1.1.{4}}{}}{12}{defi.1.1.4}
+\contentsline {obs}{{Observación}{1.1.{4}}{}}{12}{obs.1.1.4}
+\contentsline {obs}{{Observación}{1.1.{5}}{Recurencia del retorno esperado}}{12}{obs.1.1.5}
+\contentsline {problem}{{Problema}{1.1.{1}}{}}{12}{problem.1.1.1}
+\contentsline {defi}{{Definición}{1.1.{5}}{}}{12}{defi.1.1.5}
+\contentsline {defi}{{Definición}{1.2.{1}}{Función valor de estado}}{13}{defi.1.2.1}
+\contentsline {obs}{{Observación}{1.2.{1}}{}}{13}{obs.1.2.1}
+\contentsline {defi}{{Definición}{1.2.{2}}{Función valor de estado óptima}}{13}{defi.1.2.2}
+\contentsline {cor}{{Colorario}{1.2.{1}}{Ecuación de Bellman}}{13}{cor.1.2.1}
+\contentsline {cor}{{Colorario}{1.2.{2}}{Ecuación de Bellman óptima}}{14}{cor.1.2.2}
+\contentsline {defi}{{Definición}{1.2.{3}}{Función valor de estado-acción}}{14}{defi.1.2.3}
+\contentsline {defi}{{Definición}{1.2.{4}}{Función valor de estado-acción óptima}}{14}{defi.1.2.4}
+\contentsline {cor}{{Colorario}{1.2.{3}}{Relación entre funciones valor óptimas}}{15}{cor.1.2.3}
+\contentsline {cor}{{Colorario}{1.2.{4}}{Ecuación de Bellman estado-acción óptima}}{15}{cor.1.2.4}
+\contentsline {defi}{{Definición}{1.2.{5}}{OB de estado óptimo}}{15}{defi.1.2.5}
+\contentsline {thm}{{Teorema}{1.2.{1}}{Punto Fijo de Banach \cite {banach1922operations}}}{15}{thm.1.2.1}
+\contentsline {defi}{{Definición}{1.2.{6}}{OB de estado-acción óptimo}}{16}{defi.1.2.6}
+\contentsline {example}{{Ejemplo}{1.3.{1}}{Movimiento de una partícula en un potencial}}{17}{example.1.3.1}
+\contentsline {db}{{Base de datos}{3.1.{1}}{movies.csv}}{23}{db.3.1.1}
+\contentsline {db}{{Base de datos}{3.1.{2}}{ratings.csv}}{23}{db.3.1.2}
+\contentsline {db}{{Base de datos}{3.2.{1}}{movies\_features.csv}}{24}{db.3.2.1}
+\contentsline {db}{{Base de datos}{3.3.{1}}{ratings\_norm.csv}}{24}{db.3.3.1}
+\contentsline {obs}{{Observación}{3.3.{1}}{}}{24}{obs.3.3.1}
+\contentsline {db}{{Base de datos}{3.4.{1}}{movies\_pca.csv}}{24}{db.3.4.1}
+\contentsline {db}{{Base de datos}{3.5.{1}}{user\_movies\_accept.csv}}{25}{db.3.5.1}
+\contentsline {db}{{Base de datos}{3.6.{1}}{user\_movies\_reject.csv}}{26}{db.3.6.1}
+\contentsline {obs}{{Observación}{3.6.{1}}{}}{26}{obs.3.6.1}
+\contentsline {obs}{{Observación}{4.1.{1}}{}}{29}{obs.4.1.1}
+\contentsline {problem}{{Problema}{4.2.{1}}{Sin historial}}{30}{problem.4.2.1}
+\contentsline {problem}{{Problema}{4.2.{2}}{Con historial}}{30}{problem.4.2.2}
+\contentsline {thm}{{Teorema}{4.3.{1}}{}}{30}{thm.4.3.1}

@@ -1,0 +1,117 @@
+
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{color}
+% \usepackage{subfigure}
+\usepackage{subcaption}
+
+\usepackage{epsfig}
+\usepackage{chngpage}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{arydshln,amssymb,color}
+\usepackage[cmex10]{amsmath} 
+\usepackage{url}
+
+\usepackage[Algoritmo]{algorithm}
+
+\usepackage{algpseudocode}
+\usepackage{programs}
+\usepackage{sectsty}
+\usepackage[newparttoc]{titlesec}
+\usepackage{titletoc}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+
+
+\DeclareMathOperator*{\argmin}{argmin}
+
+\graphicspath{{Diagrams/}}
+
+\urldef{\mails}\path|djoroya@gmail.com-address|    
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+%para formatear etiqueta part y su tamaño
+%http://tex.stackexchange.com/questions/42526/how-to-remove-page-break-after-part-in-report-book
+\titleclass{\part}{top}
+%\partfont{\large}
+\titleformat{\part}[display]
+  {\normalfont\huge\bfseries}{\centering\partname\ \thepart}{20pt}{\large\centering}
+%\titlespacing*{\part}{0pt}{50pt}{40pt}
+\titlespacing*{\part}{0pt}{0pt}{40pt}
+
+%http://tex.stackexchange.com/questions/54321/how-to-add-spaces-between-items-in-toc
+\titlecontents{part}[3pc]{\addvspace{3pc}\filcenter}
+  {\sffamily\bfseries\MakeUppercase{\partname}~\thecontentslabel\\*[.2pc]\large}
+  {\sffamily\bfseries\large}{}[\addvspace{3pc}]
+
+
+  \usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={165mm,247mm},
+ left=20mm,
+ top=20mm,
+ }
+
+ \newcommand{\As}{\mathcal{A}}
+ \newcommand{\Rs}{\mathcal{R}}
+ \newcommand{\Ss}{\mathcal{S}}
+ \newcommand{\comment}[1]{[\textcolor{red}{#1}]}
+
+
+
+ \usepackage{amsmath}
+\numberwithin{equation}{section}
+\usepackage{cancel}
+\usepackage{bm}
+
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,
+%citecolor=blue
+}
+
+\usepackage{ntheorem,lipsum}
+
+
+\theorembodyfont{\upshape}
+\newtheorem{thm}{Teorema}[section]
+% \newtheorem{lemma}{Lemma}[section]
+
+\newtheorem{defi}{Definición}[section]
+
+\newtheorem{cor}{Colorario}[section]
+\newtheorem{obs}{Observación}[section]
+\newtheorem{prop}{Proposition}[section]
+% \newtheorem{question}{Question}[section]
+\newtheorem{example}{Ejemplo}[section]
+\newtheorem{problem}{Problema}[section]
+\newtheorem{hipo}{Hipotesís}[section]
+
+\newtheorem{db}{Base de datos}[section]
+
+% tombstone like in puthesis
+% Proof in boldface like in puthesis
+
+\usepackage[affil-it]{authblk}
+
+\usepackage{smartdiagram}
+\usepackage[colorinlistoftodos, spanish, textsize=small]{todonotes}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathmorphing} % required in the preamble
+\usepackage{graphicx}
+
+
+
+\usepackage{soul}

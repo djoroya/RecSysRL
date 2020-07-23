@@ -1,0 +1,72 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{book}
+%
+\input{settings} 
+
+\begin{document}
+
+%
+\frontmatter          % for the preliminaries
+%
+\pagestyle{plain}  % switches on printing of running heads
+%\addtocmark{Hamiltonian Mechanics} % additional mark in the TOC
+%
+ 
+
+\mainmatter              % start of the contributions
+%
+\title{Sistemas de sistemas de recomendación mediante aprendizaje por refuerzo}
+
+%
+% \subtitle{Teoría y algoritmos}
+\author{Deyviss Jesús Oroya Villalta}
+
+%\authorrunning{Josu Ceberio et al.} % abbreviated author list (for running head)
+ 
+% \institute{
+% Advisor: Roberto Santana Hermida \\
+% Intelligent Systems Group,\\ Department of Computer Science and Artificial Intelligence, \\
+% University of the Basque Country UPV/EHU,\\
+% Paseo Manuel de Lardizabal, 1\\
+% Donostia, 20018 Gipuzkoa, Spain\\
+% \mails}
+
+
+
+\maketitle              % typeset the title of the contribution
+
+
+
+%table of content
+\tableofcontents
+\listoffigures
+
+%\let\cleardoublepage\clearpage
+
+% {\abstract
+% Introdución al aprendizaje por refuerzo ...
+% }
+% {\keywords Proceso de decisión de Markov, Aprendizaje por refuerzo}
+
+
+
+
+\input{contents/01-Intro/T01-Intro.tex}
+%
+\chapter{Introducción al aprendizaje por refuerzo}
+\input{contents/02-MarkovDP/T021-MarcoTeorico_MDP.tex}
+\input{contents/02-MarkovDP/T022-MarcoTeorico_DynamicProgram.tex}
+
+\chapter{Introdución a Sistemas de recomendación}
+\input{contents/03-SysRec/T030-Related.tex}
+\input{contents/03-SysRec/T032-RecSysPrePro.tex}
+\input{contents/03-SysRec/T033-RecSysMDP.tex}%
+\bibliographystyle{apalike}
+\bibliography{Thesbib}
+
+\end{document}
+ 

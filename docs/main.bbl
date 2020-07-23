@@ -1,0 +1,65 @@
+\begin{thebibliography}{}
+
+\bibitem[Banach, 1922]{banach1922operations}
+Banach, S. (1922).
+\newblock Sur les op{\'e}rations dans les ensembles abstraits et leur
+  application aux {\'e}quations int{\'e}grales.
+\newblock {\em Fund. math}, 3(1):133--181.
+
+\bibitem[Bellman, 1954]{bellman1954theory}
+Bellman, R. (1954).
+\newblock The theory of dynamic programming.
+\newblock Technical report, Rand corp santa monica ca.
+
+\bibitem[Bellman, 1957]{bellman1957theory}
+Bellman, R. (1957).
+\newblock A markovian decision process.
+\newblock {\em Indiana Univ. Math. J.}, 6:679--684.
+
+\bibitem[Fujimoto et~al., 2019]{fujimoto2019off}
+Fujimoto, S., Meger, D., and Precup, D. (2019).
+\newblock Off-policy deep reinforcement learning without exploration.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2052--2062.
+
+\bibitem[Harper and Konstan, 2015]{MovieLens}
+Harper, F.~M. and Konstan, J.~A. (2015).
+\newblock The movielens datasets: History and context.
+\newblock {\em ACM Trans. Interact. Intell. Syst.}, 5(4).
+
+\bibitem[Lazaric, 2013]{LAZARIC}
+Lazaric, A. (2013).
+\newblock {Decision Processes and Dynamic Programming}.
+\newblock {\em Course on Reinforcement Learning}, pages 160--183.
+
+\bibitem[Lops et~al., 2011]{lops2011content}
+Lops, P., De~Gemmis, M., and Semeraro, G. (2011).
+\newblock Content-based recommender systems: State of the art and trends.
+\newblock In {\em Recommender systems handbook}, pages 73--105. Springer.
+
+\bibitem[{MATLAB Machine Learning Toolbox}, 2012]{MATPCA}
+{MATLAB Machine Learning Toolbox} (2012).
+\newblock Matlab pca function
+  (\url{https://www.mathworks.com/help/stats/pca.html}).
+
+\bibitem[Schafer et~al., 2007]{schafer2007collaborative}
+Schafer, J.~B., Frankowski, D., Herlocker, J., and Sen, S. (2007).
+\newblock Collaborative filtering recommender systems.
+\newblock In {\em The adaptive web}, pages 291--324. Springer.
+
+\bibitem[Shani et~al., 2005]{shani2005mdp}
+Shani, G., Heckerman, D., and Brafman, R.~I. (2005).
+\newblock An mdp-based recommender system.
+\newblock {\em Journal of Machine Learning Research}, 6(Sep):1265--1295.
+
+\bibitem[Sutton and Barto, 2018]{sutton2018reinforcement}
+Sutton, R.~S. and Barto, A.~G. (2018).
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press.
+
+\bibitem[{Wikipedia}, 2017]{WikiRF}
+{Wikipedia} (2017).
+\newblock Reinforcement learning diagram
+  (\url{https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg}).
+
+\end{thebibliography}
